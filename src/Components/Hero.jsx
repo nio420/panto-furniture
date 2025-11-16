@@ -2,7 +2,7 @@ import bannerImg from "../assets/banner.png";
 import { FaSearch } from "react-icons/fa";
 import TooltipBtn from "./TooltipBtn";
 import { useState } from "react";
-import { products } from "../Utils/Product";
+import { products } from "../Utils/Product.js";
 
 const Hero = ({ setSearchTerm }) => {
   const [input, setInput] = useState("");
@@ -19,9 +19,9 @@ const Hero = ({ setSearchTerm }) => {
     );
 
     if (found) {
-      setSearchTerm(input); 
+      setSearchTerm(input);
     } else {
-      alert("Product not available"); 
+      alert("Product not available");
     }
   };
 
