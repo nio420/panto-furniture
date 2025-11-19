@@ -29,9 +29,9 @@ const CartShopPage = () => {
       </div>
 
       {cartItems.length === 0 ? (
-        <p className="text-center font-semibold text-xl text-primary mt-8 px-4">
+        <p className="text-center font-semibold text-xl text-primary mt-12 px-4 mb-28">
           Your cart is empty.{" "}
-          <span className="hover:text-primary hover:underline text-black/80">
+          <span className="hover:text-primary hover:underline  text-black/80">
             <Link to="/shop"> Add to cart </Link>
           </span>
         </p>

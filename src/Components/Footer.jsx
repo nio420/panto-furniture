@@ -63,7 +63,7 @@ const Footer = () => {
 
         {/* social Link  */}
         <div>
-          <h2 className="text-xl font-semibold mb-4 text-primary">Furniture</h2>
+          <h2 className="text-xl font-semibold mb-4 text-primary">Follow Us</h2>
           <ul className="space-y-4">
             <li>
               <Link
